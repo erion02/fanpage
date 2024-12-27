@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.emgk,.emcb{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.emgk img,.emcb img,.emcm img{
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content:flex-start;
+    box-sizing: border-box;
+    background-position: center;
+    border-radius:90px;
+}
+
+
+.emter img{
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+
+.empena img{
+    margin-left: 80px;
+    margin-top: 20px;
+    
+
+}
+.emszczesny img{
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+
+
+
+.emfort img{
+    margin-left:80px;
+    margin-top: 20px;
+    
+}
+.emkounde img{
+    margin-left:40px;
+    margin-top: 20px;
+
+}
+.embalde img{
+    margin-left:80px;
+    margin-top: 20px;
+}
+.empau img{
+    margin-left:80px;
+    margin-top: 20px;
+    
+}
+.emcb1,.emcb2,.emcb3{
+    display: flex;
+}
+
+.emcb-text,.emgk-text,.emcm-text{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 18px;
+    margin-bottom: none;
+    font-family:'Oswald';
+    text-transform: uppercase;
+  
+}
+
+.emchris img{
+    margin-left:40px;
+    margin-top: 20px;
+}
+.emeric img{
+    margin-left:80px;
+    margin-top: 20px;
+}
+.eminigo img{
+    margin-left:40px;
+    margin-top: 20px;
+
+}
+.emmartin img{
+
+    margin-left:80px;
+    margin-top: 20px;
+}
+.emaraujo img{
+    
+    margin-left:80px;
+    margin-top: 20px;
+}
+
+.emdejong img{
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+
+

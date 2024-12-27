@@ -1,0 +1,169 @@
+
+*{
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.empage{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    
+    max-height:80px ;
+}
+
+
+
+.emnav a{
+    text-decoration: none;
+    color: rgb(199, 187, 187);
+
+    }
+.emfc{
+    color: rgb(199, 187, 187);
+    font-size: 20px;
+}
+.emstadiumi{
+    height:250px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.em5{
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+
+}
+.em5 p{
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(199, 187, 187);
+    
+}
+.emrivaliteti img{
+    height: 350px;
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+}
+.emrivaliteti{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+.emrivaliteti p{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(199, 187, 187);
+
+}
+
+
+.embarcelona-footer {
+    color: white;
+    padding: 20px 0;
+}
+
+.emfooter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.emfooter-logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.emfooter-links h4,
+.emfooter-contact h4,
+.emfooter-social h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.emfooter-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.emfooter-links li {
+    margin-bottom: 5px;
+}
+
+.emfooter-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.emfooter-links a:hover {
+    color: #ffcc00;
+}
+
+.emfooter-contact p {
+    margin: 5px 0;
+}
+
+.emfooter-social a {
+    margin-right: 10px;
+}
+
+.emfooter-social img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.emfooter-social img:hover {
+    transform: scale(1.2);
+}
+
+.emfooter-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #003366;
+    margin-top: 20px;
+}
+
+.emfooter-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(45deg, #003a74, #a50000);
+    background-size: 300% 300%;
+    animation: gradientAnimation 9s ease infinite;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
