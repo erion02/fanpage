@@ -1,0 +1,160 @@
+
+.player-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.player-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.player-info {
+    margin-top: 10px;
+}
+
+body {
+    background: linear-gradient(45deg, #003a74, #a50000);
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px; /* Madhësi e njëtrajtshme për fotot */
+    object-fit: cover;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-body h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(45deg, #003a74, #a50000);
+    background-size: 300% 300%;
+    animation: gradientAnimation 9s ease infinite;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .emnav {
+    text-align:center;
+    padding: 10px;
+  }
+  
+  .emnav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+  }
+  
+  .emnav a:hover {
+    border-radius: 5px;
+  }
+  .embarcelona-footer {
+    color: white;
+    padding: 20px 0;
+}
+
+.emfooter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.emfooter-logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.emfooter-links h4,
+.emfooter-contact h4,
+.emfooter-social h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.emfooter-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.emfooter-links li {
+    margin-bottom: 5px;
+}
+
+.emfooter-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.emfooter-links a:hover {
+    color: #ffcc00;
+}
+
+.emfooter-contact p {
+    margin: 5px 0;
+}
+
+.emfooter-social a {
+    margin-right: 10px;
+}
+
+.emfooter-social img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.emfooter-social img:hover {
+    transform: scale(1.2);
+}
+
+.emfooter-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #003366;
+    margin-top: 20px;
+}
+
+.emfooter-bottom p {
+    margin: 0;
+    font-size: 14px;
+}

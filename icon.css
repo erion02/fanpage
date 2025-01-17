@@ -1,0 +1,64 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.emmessi{
+    height: 300px;
+    width: auto;
+    margin-left: 0px;
+}
+.emxavi{
+    height:300px;
+    width: auto;
+}
+.eminiesta{
+    height:300px;
+    width: auto;
+}
+.empuylo{
+    height: 300px;
+    width: 280px;
+}
+body{
+    background-color: #4B0923;
+
+}
+.blaugrana-legends {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.blaugrana-legends h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FFC107;
+}
+
+.legend {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.legend img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.legend h3 {
+    margin: 10px 0;
+    color: #FFC107;
+}
+
+.legend p {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
