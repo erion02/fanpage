@@ -1,4 +1,4 @@
-
+O
 .player-card {
     text-align: center;
     margin-bottom: 30px;
@@ -11,12 +11,7 @@
     margin-top: 10px;
 }
 
-body {
-    background: linear-gradient(45deg, #003a74, #a50000);
-    color: white;
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+
 
 .card {
     border: none;
@@ -25,7 +20,7 @@ body {
 
 .card-img-top {
     width: 100%;
-    height: 300px; /* Madhësi e njëtrajtshme për fotot */
+    height: 300px; 
     object-fit: cover;
     border: none;
     border-radius: 5px;
@@ -42,48 +37,52 @@ body {
     font-weight: bold;
     color: white;
 }
+h2{
+    display: flex;
+    justify-content: center;
+}
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Lora'Arial, sans-serif;
     color: white;
     background: linear-gradient(45deg, #003a74, #a50000);
     background-size: 300% 300%;
     animation: gradientAnimation 9s ease infinite;
-  }
+    }
 
-  @keyframes gradientAnimation {
+    @keyframes gradientAnimation {
     0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
     }
     50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
     }
     100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
     }
-  }
+    }
 
-  h1 {
+    h1 {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .emnav {
+    }
+    .emnav {
     text-align:center;
     padding: 10px;
-  }
-  
-  .emnav a {
+    }
+
+    .emnav a {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
     font-size: 18px;
-  }
-  
-  .emnav a:hover {
+    }
+
+    .emnav a:hover {
     border-radius: 5px;
-  }
-  .embarcelona-footer {
+    }
+    .embarcelona-footer {
     color: white;
     padding: 20px 0;
 }
@@ -158,3 +157,38 @@ body {
     margin: 0;
     font-size: 14px;
 }
+
+.emnav {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    font-size: 20px;
+    justify-content: flex-start;
+    padding: 10px; 
+    }
+    
+    .emnav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    
+
+    }
+    .emnav a:hover {
+        background-color: #750000; 
+        }
+    .empage{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+
+    }
+    .empage a{
+        text-decoration: none;
+        color: black;
+    }
+    .empage a:hover{
+        background-color:#750000;
+    }

@@ -61,4 +61,37 @@ body {
 
   }
   
-  
+  .emnav {
+    display: flex;
+    flex-wrap: wrap; /* Lejon që lidhjet të kalojnë në rresht të ri */
+    gap: 10px; /* Hapësirë ndërmjet lidhjeve */
+    font-size: 20px;
+    justify-content: flex-start;
+    padding: 10px; /* Opsionale, hapësirë brenda navbar-it */
+    }
+    
+    .emnav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px; /* Hapësirë brenda lidhjeve */
+    border-radius: 5px; /* Skaje të rrumbullakosura */
+    transition: background-color 0.3s ease; /* Efekt hover */
+    
+
+    }
+    .emnav a:hover {
+        background-color: #750000; /* Ndryshim ngjyre kur lëviz miun mbi */
+        }
+    .empage{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+
+    }
+    .empage a{
+        text-decoration: none;
+        color: black;
+    }
+    .empage a:hover{
+        background-color:#750000;
+    }
