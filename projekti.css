@@ -47,6 +47,10 @@
         display: flex;
         margin-left: 10px;
     }
+    .emnav1{
+        display: flex;
+        justify-content: space-evenly;
+    }
 /* Footer Styling */
 footer {
     margin-top: auto;
@@ -54,10 +58,7 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-.emnav1{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 
 

@@ -177,7 +177,7 @@
     }
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Lora',Arial, sans-serif;
       color: white;
       background: linear-gradient(45deg, #003a74, #a50000);
       background-size: 300% 300%;
@@ -195,3 +195,90 @@
         background-position: 0% 50%;
       }
     }
+    footer {
+      margin-top: auto;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+  }
+  
+  
+  
+  
+  
+  
+  .embarcelona-footer {
+      color: white;
+      padding: 20px 0;
+  }
+  
+  .emfooter-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  
+  .emfooter-logo img {
+      max-width: 150px;
+      margin-bottom: 10px;
+  }
+  
+  .emfooter-links h4,
+  .emfooter-contact h4,
+  .emfooter-social h4 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      text-transform: uppercase;
+  }
+  
+  .emfooter-links ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .emfooter-links li {
+      margin-bottom: 5px;
+  }
+  
+  .emfooter-links a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s;
+  }
+  
+  .emfooter-links a:hover {
+      color: #ffcc00;
+  }
+  
+  .emfooter-contact p {
+      margin: 5px 0;
+  }
+  
+  .emfooter-social a {
+      margin-right: 10px;
+  }
+  
+  .emfooter-social img {
+      width: 24px;
+      height: 24px;
+      transition: transform 0.3s;
+  }
+  
+  .emfooter-social img:hover {
+      transform: scale(1.2);
+  }
+  
+  .emfooter-bottom {
+      text-align: center;
+      padding: 10px 0;
+      border-top: 1px solid #003366;
+      margin-top: 20px;
+  }
+  
+  .emfooter-bottom p {
+      margin: 0;
+      font-size: 14px;
+  }

@@ -1,7 +1,7 @@
-/* Body Styles */
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Lora'Arial, sans-serif;
     background-image: url('stadiumi 1.jpg');
     background-size: cover;
     background-position: center;
@@ -9,7 +9,7 @@ body {
     color: white;
   }
   
-  .intro-container {
+  .emintro-container {
     padding: 40px;
     text-align: center;
     max-width: 800px;
@@ -63,24 +63,24 @@ body {
   
   .emnav {
     display: flex;
-    flex-wrap: wrap; /* Lejon që lidhjet të kalojnë në rresht të ri */
-    gap: 10px; /* Hapësirë ndërmjet lidhjeve */
+    flex-wrap: wrap; 
+    gap: 10px; 
     font-size: 20px;
     justify-content: flex-start;
-    padding: 10px; /* Opsionale, hapësirë brenda navbar-it */
+    padding: 10px;  
     }
     
     .emnav a {
     text-decoration: none;
     color: black;
-    padding: 10px 15px; /* Hapësirë brenda lidhjeve */
-    border-radius: 5px; /* Skaje të rrumbullakosura */
-    transition: background-color 0.3s ease; /* Efekt hover */
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
     
 
     }
     .emnav a:hover {
-        background-color: #750000; /* Ndryshim ngjyre kur lëviz miun mbi */
+        background-color: #750000; 
         }
     .empage{
         display: flex;
@@ -94,4 +94,23 @@ body {
     }
     .empage a:hover{
         background-color:#750000;
+    }
+    #emsearchForm{
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 35px;
+      margin-right: 15px;
+      color: black;
+      font-size: 20px;
+    }
+    button{
+      border-radius: 15px;
+      background-color: rgb(23, 23, 58);
+      border: none;
+
+    }
+    input{
+      border-radius: 20px;
+      background-color:rgb(23, 23, 58) ;
+      border: none;
     }

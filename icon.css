@@ -23,9 +23,10 @@
 }
 body{
     background-color: #4B0923;
+    font-family: 'Lora';
 
 }
-.blaugrana-legends {
+.emblaugrana-legends {
     text-align: center;
     color: white;
     padding: 20px;
@@ -34,54 +35,54 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.blaugrana-legends h2 {
+.emblaugrana-legends h2 {
     font-size: 2em;
     margin-bottom: 20px;
     color: #FFC107;
 }
 
-.legend {
+.emlegend {
     display: inline-block;
     width: 30%;
     margin: 10px;
     text-align: center;
 }
 
-.legend img {
+.emlegend img {
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.legend h3 {
+.emlegend h3 {
     margin: 10px 0;
     color: #FFC107;
 }
 
-.legend p {
+.emlegend p {
     font-size: 0.9em;
     line-height: 1.4;
 }
 .emnav {
     display: flex;
-    flex-wrap: wrap; /* Lejon që lidhjet të kalojnë në rresht të ri */
-    gap: 10px; /* Hapësirë ndërmjet lidhjeve */
+    flex-wrap: wrap; 
+    gap: 10px; 
     font-size: 20px;
     justify-content: flex-start;
-    padding: 10px; /* Opsionale, hapësirë brenda navbar-it */
+    padding: 10px; 
     }
     
     .emnav a {
     text-decoration: none;
     color: black;
-    padding: 10px 15px; /* Hapësirë brenda lidhjeve */
-    border-radius: 5px; /* Skaje të rrumbullakosura */
-    transition: background-color 0.3s ease; /* Efekt hover */
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
     
 
     }
     .emnav a:hover {
-        background-color: #750000; /* Ndryshim ngjyre kur lëviz miun mbi */
+        background-color: #750000; 
         }
     .empage{
         display: flex;
@@ -96,4 +97,111 @@ body{
     .empage a:hover{
         background-color:#750000;
     }
+    .emlegend-stats{
+        color: white;
+        margin-left: 300px;
+        border-top: solid black;
+        border-bottom: solid black;
+        border-left: solid black;
+        border-right: solid black;
+        border-width: 2px;
     
+
+    }
+    table td, table th{
+        padding-right: 15px;
+    }
+    h6{
+        margin-left: 300px;
+        color: white;
+        font-size: 20px;
+        font-family: 'lora';
+        max-width: 800px;
+    }
+    footer {
+        margin-top: auto;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    
+    
+    
+    
+    
+    .embarcelona-footer {
+        color: white;
+        padding: 20px 0;
+    }
+    
+    .emfooter-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .emfooter-logo img {
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+    
+    .emfooter-links h4,
+    .emfooter-contact h4,
+    .emfooter-social h4 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    
+    .emfooter-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .emfooter-links li {
+        margin-bottom: 5px;
+    }
+    
+    .emfooter-links a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s;
+    }
+    
+    .emfooter-links a:hover {
+        color: #ffcc00;
+    }
+    
+    .emfooter-contact p {
+        margin: 5px 0;
+    }
+    
+    .emfooter-social a {
+        margin-right: 10px;
+    }
+    
+    .emfooter-social img {
+        width: 24px;
+        height: 24px;
+        transition: transform 0.3s;
+    }
+    
+    .emfooter-social img:hover {
+        transform: scale(1.2);
+    }
+    
+    .emfooter-bottom {
+        text-align: center;
+        padding: 10px 0;
+        border-top: 1px solid #003366;
+        margin-top: 20px;
+    }
+    
+    .emfooter-bottom p {
+        margin: 0;
+        font-size: 14px;
+    }
