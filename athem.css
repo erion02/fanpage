@@ -1,84 +1,90 @@
-body {
+
+html, body {
+    height: 100%;
     margin: 0;
-    font-family:'Lora'Arial, sans-serif;
+    font-family: 'Lora', Arial, sans-serif;
     background: linear-gradient(45deg, #003a74, #a50000);
     background-size: 300% 300%;
     animation: gradientAnimation 9s ease infinite;
     text-align: center;
-    }
+}
 
-    @keyframes gradientAnimation {
+/* Background animation */
+@keyframes gradientAnimation {
     0% {
-    background-position: 0% 50%;
+        background-position: 0% 50%;
     }
     50% {
-    background-position: 100% 50%;
+        background-position: 100% 50%;
     }
     100% {
-    background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-    }
-    .emnav {
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 10px; 
-        font-size: 20px;
-        justify-content: flex-start;
-        padding: 10px; 
-        }
-        
-        .emnav a {
-        text-decoration: none;
-        color: black;
-        padding: 10px 15px; 
-        border-radius: 5px; 
-        transition: background-color 0.3s ease; 
-        }
-        
-        .emnav a:hover {
-        background-color: #750000; 
-        }
+}
 
+/* Header Navigation */
+.emnav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px;
+    background-color: #003366;
+}
 
+.emnav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.emnav a:hover {
+    background-color: #750000;
+}
+
+/* Main content styles */
 main {
     padding: 20px;
 }
-.anthem-text {
+
+/* Anthem Text */
+.emanthem-text {
     margin: 20px auto;
     max-width: 800px;
     line-height: 1.8;
     font-size: 1.2em;
-}
-.video-container {
-    margin: 20px auto;
-}
-/* Sigurohuni që HTML dhe Body të mbulojnë gjithë faqen */
-html, body {
-    height: 100%;
-    margin: 0;
+    color: #000000;
 }
 
-/* Footer - përdorim Flexbox për të mbajtur footerin në fund */
+/* Video Container */
+.emvideo-container {
+    margin: 20px auto;
+    max-width: 640px;
+}
+
+/* Footer styling */
 .emarcelona-footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ky mund të ndihmojë që footer të mbetet në fund */
+    justify-content: space-between;
     padding: 20px;
-    background-color: #0033a0; /* Mund të vendosni ngjyrën që preferoni */
+    background-color: #0033a0;
     color: white;
-    margin-top: auto; /* Kjo siguron që footer të mbetet në fund të faqes */
+    margin-top: auto;
 }
 
-/* Mund të shtoni pak hapësirë dhe font më të madh */
 .emfooter-container {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
 
-/* Stilet për secilën pjesë të footerit */
 .emfooter-logo img {
-    width: 100px; /* Mund të rregulloni madhësinë e logos */
+    width: 100px;
+    margin-left: 20px;
 }
 
 .emfooter-links, .emfooter-contact, .emfooter-social {
@@ -96,16 +102,17 @@ html, body {
 }
 
 .emfooter-social a img {
-    width: 30px; /* Ndryshoni sipas nevojës */
+    width: 30px;
     margin: 0 10px;
 }
 
+/* Footer bottom */
 .emfooter-bottom {
     text-align: center;
     padding-top: 20px;
 }
 
-
+/* Footer contact and social media */
 .emfooter-contact p {
     margin: 5px 0;
 }
@@ -124,6 +131,7 @@ html, body {
     transform: scale(1.2);
 }
 
+/* Footer bottom */
 .emfooter-bottom {
     text-align: center;
     padding: 10px 0;
@@ -135,28 +143,126 @@ html, body {
     margin: 0;
     font-size: 14px;
 }
-.emtitle-text{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
 
-#searchForm{
+/* Search form styling */
+#searchForm {
     display: flex;
     justify-content: flex-end;
     margin-top: 35px;
     margin-right: 15px;
     color: black;
     font-size: 20px;
-    }
-    button{
+}
+
+button {
     border-radius: 15px;
     background-color: rgb(23, 23, 58);
     border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
 
-    }
-    input{
+button:hover {
+    background-color: #750000;
+}
+
+input {
     border-radius: 20px;
-    background-color:rgb(23, 23, 58) ;
+    background-color: rgb(23, 23, 58);
     border: none;
+    padding: 8px 15px;
+    color: white;
+}
+
+/* Responsiveness for all screen sizes */
+@media (max-width: 1024px) {
+    /* For tablets and smaller screens */
+    .emnav {
+        flex-direction: column;
+        align-items: center;
     }
+
+    .anthem-text {
+        font-size: 1.1em;
+    }
+
+    .video-container {
+        max-width: 100%;
+    }
+
+    .emfooter-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emfooter-logo img {
+        width: 90px;
+    }
+
+    .emfooter-social a img {
+        width: 25px;
+    }
+
+    button, input {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* For small screens (tablets/large phones) */
+    .emnav a {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    .anthem-text {
+        font-size: 1em;
+    }
+
+    .video-container {
+        width: 100%;
+    }
+
+    .emfooter-logo img {
+        width: 80px;
+    }
+
+    button, input {
+        font-size: 15px;
+        padding: 7px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For very small screens (phones) */
+    .emnav a {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .emanthem-text {
+        font-size: 0.9em;
+        color: white;
+    }
+
+    .emvideo-container {
+        width: 100%;
+    }
+
+    .emfooter-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emfooter-logo img {
+        width: 70px;
+    }
+
+    button, input {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
