@@ -1,30 +1,27 @@
+document.getElementById('searchForm').addEventListener('submit', function (event) {
+    event.preventDefault(); // Parandalon sjelljen e parazgjedhur të formës.
+    
+    const query = document.getElementById('search').value.trim().toLowerCase();
+    
+    // Kërkimet dhe faqet përkatëse
+    const pages = {
+    'introduction': 'erion.html',
+    'fc barcelona': 'projekti.html',
+    'first team': 'firstteam.html',
+    'second team': 'secondteam.html',
+    'female team': 'womenteam.html',
+    'basketball': 'basketball.html',
+    'la masia': 'la-masia.html',
+    'trophies': 'trofet.html',
+    'blaugrana legends': 'icon.html',
+    'anthem': 'athem.html'
+    };
 
-    document.getElementById('searchForm').addEventListener('submit', function(event) {
-        event.preventDefault(); 
-    
-        const query = document.getElementById('search').value.trim().toLowerCase(); 
-    
-        if (query === 'introduction') {
-            window.location.href = 'erion.html'; 
-        } else if (query === 'fc barcelona') {
-            window.location.href = 'projekti.html'; 
-        } else if (query === 'first team') {
-            window.location.href = 'firstteam.html'; 
-        } else if (query === 'second team') {
-            window.location.href = 'secondteam.html'; 
-        } else if (query === 'female team') {
-            window.location.href = 'womenteam.html'; 
-        } else if (query === 'basketball') {
-            window.location.href = 'basketball.html'; 
-        } else if (query === 'la masia') {
-            window.location.href = 'la masia.html'; 
-        } else if (query === 'trophies') {
-            window.location.href = 'trofet.html'; 
-        } else if (query === 'blaugrana legends') {
-            window.location.href = 'icon.html'; 
-        } else if (query === 'anthem') {
-            window.location.href = 'athem.html'; 
-        } else {
-            alert('Page not found'); 
-        }
+    // Kontrollo nëse kërkesa përputhet me ndonjë faqe
+    if (pages[query]) {
+    window.location.href = pages[query];
+    } else {
+      alert('Page not found'); // Nëse kërkimi nuk përputhet me ndonjë faqe
+    }
     });
+    
