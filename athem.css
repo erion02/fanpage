@@ -52,51 +52,37 @@ main {
 .video-container {
     margin: 20px auto;
 }
-footer {
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Sigurohuni që HTML dhe Body të mbulojnë gjithë faqen */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Footer - përdorim Flexbox për të mbajtur footerin në fund */
+.emarcelona-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ky mund të ndihmojë që footer të mbetet në fund */
+    padding: 20px;
+    background-color: #0033a0; /* Mund të vendosni ngjyrën që preferoni */
     color: white;
-    font-size: 0.9em;
-}
-footer {
-    margin-top: auto;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+    margin-top: auto; /* Kjo siguron që footer të mbetet në fund të faqes */
 }
 
-
-
-
-
-
-.embarcelona-footer {
-    color: white;
-    padding: 20px 0;
-}
-
+/* Mund të shtoni pak hapësirë dhe font më të madh */
 .emfooter-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 0;
 }
 
+/* Stilet për secilën pjesë të footerit */
 .emfooter-logo img {
-    max-width: 150px;
-    margin-bottom: 10px;
+    width: 100px; /* Mund të rregulloni madhësinë e logos */
 }
 
-.emfooter-links h4,
-.emfooter-contact h4,
-.emfooter-social h4 {
-    margin-bottom: 10px;
-    font-size: 18px;
-    text-transform: uppercase;
+.emfooter-links, .emfooter-contact, .emfooter-social {
+    flex: 1;
 }
 
 .emfooter-links ul {
@@ -104,19 +90,21 @@ footer {
     padding: 0;
 }
 
-.emfooter-links li {
-    margin-bottom: 5px;
-}
-
-.emfooter-links a {
+.emfooter-links ul li a {
     text-decoration: none;
     color: white;
-    transition: color 0.3s;
 }
 
-.emfooter-links a:hover {
-    color: #ffcc00;
+.emfooter-social a img {
+    width: 30px; /* Ndryshoni sipas nevojës */
+    margin: 0 10px;
 }
+
+.emfooter-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+
 
 .emfooter-contact p {
     margin: 5px 0;
