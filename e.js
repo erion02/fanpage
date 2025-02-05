@@ -8,7 +8,7 @@ document.getElementById('searchForm').addEventListener('submit', function (event
     'introduction': 'erion.html',
     'fc barcelona': 'projekti.html',
     'first team': 'firstteam.html',
-    'second team': 'secondteam.html',
+    'barca atletic': 'secondteam.html',
     'female team': 'womenteam.html',
     'basketball': 'basketball.html',
     'la masia': 'la-masia.html',
@@ -21,7 +21,8 @@ document.getElementById('searchForm').addEventListener('submit', function (event
     if (pages[query]) {
     window.location.href = pages[query];
     } else {
-      alert('Page not found'); // Nëse kërkimi nuk përputhet me ndonjë faqe
+       // Nëse kërkimi nuk përputhet me ndonjë faqe
+      alert('Page not found');
     }
     });
     

@@ -16,7 +16,7 @@ document.getElementById('searchForm').addEventListener('submit', function (event
         'introduction': 'erion.html',
         'fc barcelona': 'projekti.html',
         'first team': 'firstteam.html',
-        'second team': 'secondteam.html',
+        'barca atletic': 'secondteam.html',
         'female team': 'womenteam.html',
         'basketball': 'basketball.html',
         'la masia': 'la-masia.html',
