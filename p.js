@@ -1,11 +1,17 @@
-function changeImage() {
+document.addEventListener("DOMContentLoaded", function () {
     var img = document.getElementById("myImage");
-    if (img.src.match("4-0")) {
-        img.src="5-1.png" // Zëvendëson me një imazh tjetër
-    } else {
-        img.src = "4-0.png"; // Kthehet në imazhin origjinal
-    }
-}
+    
+    img.addEventListener("click", function () {
+        var currentSrc = img.src.split("/").pop(); // Merr vetëm emrin e skedarit
+        
+        if (currentSrc === "4-0.png") {
+            img.src = "5PIQUE.jpg"; 
+        } else {
+            img.src = "4-0.png"; 
+        }
+    });
+});
+
 document.getElementById('searchForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Parandalon sjelljen e parazgjedhur të formës.
     
@@ -13,7 +19,7 @@ document.getElementById('searchForm').addEventListener('submit', function (event
     
     // Kërkimet dhe faqet përkatëse
     const pages = {
-        'introduction': 'erion.html',
+        'introduction': 'index.html',
         'fc barcelona': 'projekti.html',
         'first team': 'firstteam.html',
         'barca atletic': 'secondteam.html',

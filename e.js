@@ -5,7 +5,7 @@ document.getElementById('searchForm').addEventListener('submit', function (event
     
     // Kërkimet dhe faqet përkatëse
     const pages = {
-    'introduction': 'erion.html',
+    'introduction': 'index.html',
     'fc barcelona': 'projekti.html',
     'first team': 'firstteam.html',
     'barca atletic': 'secondteam.html',

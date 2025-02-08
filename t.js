@@ -9,7 +9,7 @@ document.getElementById('emcelebrate-btn').addEventListener('click', function ()
   
     // Kërkimet dhe faqet përkatëse
     const pages = {
-      'introduction': 'erion.html',
+      'introduction': 'index.html',
       'fc barcelona': 'projekti.html',
       'first team': 'firstteam.html',
       'barca atletic': 'secondteam.html',
